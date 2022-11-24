@@ -11,8 +11,8 @@ header {  /* Esto se agrego porque se fijo el navbar en el html y se ajusta el m
 
 .header-content-left img {
   /*width: 100%; /* Esto es para que ocupe el ancho de mi columna*/
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 240px;
   margin-bottom: 10px;
 }
@@ -46,9 +46,10 @@ header {  /* Esto se agrego porque se fijo el navbar en el html y se ajusta el m
 }
 
 #testimonios img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .info-one h5{
@@ -75,7 +76,12 @@ header {  /* Esto se agrego porque se fijo el navbar en el html y se ajusta el m
   flex-basis: auto; /* determian el tamaño de una caja de contenidos */
 }
 
+footer {
+  background: url(/Image/contacto2.png) no-repeat 75%;
+  padding: 30px  30px 30px 30px;
 
+
+}
 
 
 
