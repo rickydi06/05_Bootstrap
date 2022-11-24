@@ -5,6 +5,10 @@ body {
     background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+header {  /* Esto se agrego porque se fijo el navbar en el html y se ajusta el margen */
+  margin-top: 100px;
+}
+
 .header-content-left img {
   /*width: 100%; /* Esto es para que ocupe el ancho de mi columna*/
   width: 350px;
@@ -46,4 +50,33 @@ body {
   height: 350px;
   border-radius: 50%;
 }
+
+.info-one h5{
+  text-align: center;
+}
+
+.info-one h5 p {
+  margin: 0 auto;
+}
+
+#info-two {
+  background-color: #f1f1f1;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#info-two .container p {
+  text-align: justify;
+}
+
+#info-two .container h5 p {
+  text-align: justify;
+  flex-basis: auto; /* determian el tamaño de una caja de contenidos */
+}
+
+
+
+
+
 

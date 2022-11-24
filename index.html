@@ -22,7 +22,7 @@
 <body>
 
     <!-- INICIA SECCION NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <!-- se agrego fixet-top que fija el navbar en la parte superior -->
         <div class="container"> <!-- DE SER NECESARIO AGREGAR UN CONTENEDOR SI SE OCUPA -->
             <a class="navbar-brand" href="#">TEC PLAZA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="header-content-left">
-                        <img src="Image/carrusel3.png" alt="image_celular">
+                        <img src="Image/celular.png" alt="image_celular">
                     </div>
                 </div>
                 <div class="col-md-6">       
@@ -72,7 +72,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 profile">
-                    <img src="Image/contacto.png" alt="profile_image">
+                    <img src="Image/testimonio.png" alt="profile_image">
                 </div>
                 <div class="col-md-6">
                     <p class="mb-2 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque architecto delectus iste iusto facilis. Consectetur, provident necessitatibus a quam officia ipsam placeat eveniet quis velit alias ratione culpa? Possimus, dignissimos.
@@ -83,6 +83,74 @@
         </div>
     </section>
     <!-- TERMINA TESTIMONIOS -->
+
+    <!-- EMPIEZA CARRUSEL -->
+    <section class="info-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="info">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Image/carrusel3.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>OFRECEMOS</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tenetur, architecto quidem autem laboriosam perspiciatis ullam dolorem aspernatur repellendus consequuntur ipsa quam sequi amet similique reprehenderit consectetur voluptatibus velit omnis?</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Image/carrusel4.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>OFRECEMOS</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam in pariatur praesentium assumenda itaque ex architecto tenetur, dolores iste exercitationem molestiae error ea, officia maiores similique porro quo? Sint?</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Image/carrusel5.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>OFRECEMOS</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quos, voluptates ut molestiae quam nemo expedita repellat fugiat quia vero saepe sit ex doloremque vel maxime architecto tempore earum harum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TERMINA CARRUSEL -->
+    
+    <!-- EMPIEZA INFO2 -->
+    <section id="info-two">
+        <div class="container">
+            <div class="row my-5"> <!-- my-5 hace referencia al margen en el eje y -->
+                <div class="col-md-6">
+                    <h5>Servicio 1</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptatum ipsam quidem, labore ipsa repellendus eum a modi minima fugit, ullam nulla non quod aliquam id officiis error ut provident!</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Servicio Premium</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident beatae necessitatibus porro error iusto quis perferendis magnam magni accusamus facere enim culpa, soluta velit repudiandae rem sunt eaque, nihil adipisci.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TERMINA INFO2 -->
 
     <!-- EMPIEZA MAIN -->
     <main>
